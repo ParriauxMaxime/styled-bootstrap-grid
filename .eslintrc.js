@@ -1,5 +1,8 @@
 module.exports = {
-    "extends": "airbnb",
+    "extends": [
+        "airbnb",
+        "jest-enzyme",
+    ]
     rules: {
         'import/no-unresolved': 0,
     }
